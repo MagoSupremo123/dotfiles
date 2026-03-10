@@ -1,0 +1,6 @@
+Microsoft.PowerToys.Configure
+Microsoft.WinGet.Client
+Microsoft.WinGet.CommandNotFound
+posh-git
+PSFzf
+Terminal-Icons
