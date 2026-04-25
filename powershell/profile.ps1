@@ -25,3 +25,6 @@ Set-Alias g git
 
 #Oh My Posh
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/takuya.omp.json" | Invoke-Expression
+
+#Fnm
+fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
