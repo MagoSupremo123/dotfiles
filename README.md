@@ -8,7 +8,11 @@
 
 > A minha fonte e tema favoritos são respectivamente a Fira Code Nerd Font e o Dracula Theme. Créditos aos respectivos criadores.
 
+# Geral
+
 ## VS Code
+
+- [%APPDATA%\code\user\settings.json](vscode/settings.json)
 
 ## MPV
 
@@ -18,10 +22,10 @@
 
 ## Powershell
 
-### Requesitos
+### Requisitos
 
-- [Oh My Posh](https://ohmyposh.dev/) - Prompt theme engine
-- [Terminal Icons](https://github.com/devblackops/Terminal-Icons) - Folder and file icons
+- [Oh My Posh](https://ohmyposh.dev/)
+- [Terminal Icons](https://github.com/devblackops/Terminal-Icons)
 - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Cmdlets for customizing the editing environment, used for autocompletion
 
 - [PSFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder
@@ -32,6 +36,11 @@
 
 - [Módulos instalados](powershell/List%20of%20installed%20Modules.txt)
 
+# Linux
+
+Lista de programas:
+
+- [Eza](https://github.com/eza-community/eza) - `ls` replacement
 
 ## Fish Shell
 
@@ -41,19 +50,13 @@
 Directory jumping
 - [fzf](https://github.com/PatrickF1/fzf.fish) - Interactive filtering
 
+### Tema
+`$ fisher install dracula/fish`
+
 ### Arquivos
 
-- [~/.config/fish/config.fish]()
+- [~/.config/fish/config.fish](fish/config.fish)
 
-- [~/.config/fish/su.fish]()
+- [~/.config/fish/functions/fish_user_key_bindings.fish](fish/fish_user_key_bindings.fish)
 
-- [~/.config/fish/functions/fish_user_key_bindings.fish]()
-
-
-## Eza
-
-- [Eza](https://github.com/eza-community/eza) - `ls` replacement
-
-- [~/.config/fish/fish_config]()
-
-## Arch Linux WSL 2
+- [~/.config/fish/su.fish](fish/su.fish)

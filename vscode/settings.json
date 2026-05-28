@@ -1,0 +1,62 @@
+{
+  // Editor
+  "editor.fontSize": 18,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.renderLineHighlight": "gutter",
+
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "vsc-jetbrains-icons-enhanced",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Minhas configs.
+  "editor.suggestSelection": "first",
+  "cSpell.language": "en,pt-BR",
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.autoClosingBrackets": "always",
+  "files.enableTrash": false,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": [
+        "-nologo"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "window.commandCenter": false,
+  "security.workspace.trust.enabled": false,
+  
+  "editor.mouseWheelZoom": true,
+  "workbench.colorTheme": "Dracula Refined",
+  
+  // Python
+  "python.defaultInterpreterPath": "C:\\Users\\gabri\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python.analysis.completeFunctionParens": true,
+  "[python]": {
+    "files.insertFinalNewline": true
+  },
+  
+  // Javascript
+  "javascript.suggest.autoImports": true,
+
+  // Terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontLigatures.enabled": true,
+  
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true
+}
